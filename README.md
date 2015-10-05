@@ -9,3 +9,21 @@
 ![Month Icon](https://dl.dropboxusercontent.com/u/26042707/gomonth%28medium%29.jpg)
 ## Installation
 go get github.com/daishisystems/month
+## Sample Code
+```go
+	// The last numeric day of January is 31
+	m := month.Month(month.January)
+	fmt.Printf("The last numeric day of %s is %d\n", m, m.LastDay(2015))
+
+	// The last numeric day of February is 28
+	m = month.Month(month.February)
+	fmt.Printf("The last numeric day of %s is %d\n", m, m.LastDay(2015))
+
+	// The last numeric day of February is 29
+	m = month.Month(month.February)
+	fmt.Printf("The last numeric day of %s is %d\n", m, m.LastDay(2008))
+
+	// The last numeric day of July is 31
+	m = month.Month(7)
+	fmt.Printf("The last numeric day of %s is %d\n", m, m.LastDay(2015))
+```
