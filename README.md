@@ -2,6 +2,7 @@
 # Go Month Package
 
 [![Join the chat at https://gitter.im/daishisystems/month](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/daishisystems/month?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+[![Build Status](https://travis-ci.org/daishisystems/month.svg)](https://travis-ci.org/daishisystems/month)
 
 *Package month provides functionality, pertaining to months of the year, that is not available in standard Go libraries. Examples of this include the ability to return the last day of any given month.*
 
