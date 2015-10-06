@@ -5,7 +5,7 @@
 [![Build Status](https://travis-ci.org/daishisystems/month.svg)](https://travis-ci.org/daishisystems/month)
 [![godoc](https://img.shields.io/badge/godoc-reference-blue.svg)](https://godoc.org/github.com/daishisystems/month)
 
-*Package month provides functionality pertaining to months of the year. The package is designed with developer productivity in mind, encapsulating some of the more verbose features of underlying Go packages, and exposing them through intuitively. Examples of this include the ability to return the last day of any given month.*
+*Package month provides functionality pertaining to months of the year. The package is designed with developer productivity in mind, encapsulating some of the more verbose features of underlying Go packages, and exposing them intuitively. Examples of this include the ability to return the last day of any given month.*
 
 ![Month Icon](https://dl.dropboxusercontent.com/u/26042707/gomonth%28medium%29.jpg)
 ## Installation
