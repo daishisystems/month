@@ -65,7 +65,11 @@ func (m Month) String() string {
 func (m Month) LastDay(year uint16) int {
 
 	if m == 2 {
-		isLeapYear := math.Mod(float64(year), 4) == 0
+		y := float64(year)
+
+		isLeapYear := math.Mod(y, 4) == 0 &&
+			(math.Mod(y, 100) != 0 || math.Mod(y, 400) == 0)
+
 		if isLeapYear {
 			return 29
 		}
