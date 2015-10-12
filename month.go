@@ -10,7 +10,7 @@ type Month int
 
 // Standard calendar months.
 const (
-	January = 1 + iota
+	January Month = 1 + iota
 	February
 	March
 	April
