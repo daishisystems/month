@@ -13,19 +13,19 @@ go get github.com/daishisystems/month
 ## Sample Code
 ```go
 	// The last numeric day of January is 31
-	m := month.Month(month.January)
+	m := month.January
 	fmt.Printf("The last numeric day of %s is %d\n", m, m.LastDay(2015))
 
 	// The last numeric day of February is 28
-	m = month.Month(month.February)
-	fmt.Printf("The last numeric day of %s is %d\n", m, m.LastDay(2015))
+	m = month.February
+	fmt.Printf("The last numeric day of %s is %d\n", m, month.February.LastDay(2015))
 
 	// The last numeric day of February is 29
-	m = month.Month(month.February)
+	m = month.February
 	fmt.Printf("The last numeric day of %s is %d\n", m, m.LastDay(2008))
 
 	// The last numeric day of July is 31
-	m = month.Month(7)
+	m = month.July
 	fmt.Printf("The last numeric day of %s is %d\n", m, m.LastDay(2015))
 ```
 ## Contact the Developer
