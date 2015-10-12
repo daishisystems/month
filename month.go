@@ -3,8 +3,6 @@
 // ability to return the last day of any given month.
 package month
 
-import "math"
-
 // Month represents a standard calendar month, applicable to integer format.
 type Month int
 
@@ -65,10 +63,9 @@ func (m Month) String() string {
 func (m Month) LastDay(year uint16) int {
 
 	if m == 2 {
-		y := float64(year)
 
-		isLeapYear := math.Mod(y, 4) == 0 &&
-			(math.Mod(y, 100) != 0 || math.Mod(y, 400) == 0)
+		isLeapYear := year%4 == 0 &&
+			(year%100 != 0 || year%400 == 0)
 
 		if isLeapYear {
 			return 29
