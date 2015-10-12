@@ -1,4 +1,4 @@
-<a href="https://github.com/daishisystems/month">![Image of insidethecpu](https://dl.dropboxusercontent.com/u/26042707/Daishi%20Systems%20Icon%20with%20Text%20%28really%20tiny%20with%20photo%29.png)</a>
+<a href="http://insidethecpu.com/2015/10/09/simple-date-handling-in-go/">![Image of insidethecpu](https://dl.dropboxusercontent.com/u/26042707/Daishi%20Systems%20Icon%20with%20Text%20%28really%20tiny%20with%20photo%29.png)</a>
 # Go Month Package
 
 [![Join the chat at https://gitter.im/daishisystems/month](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/daishisystems/month?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
@@ -7,7 +7,7 @@
 
 *Package month provides functionality pertaining to months of the year. The package is designed with developer productivity in mind, encapsulating some of the more verbose features of underlying Go packages, and exposing them intuitively. Examples of this include the ability to return the last day of any given month.*
 
-[![Month Icon](https://dl.dropboxusercontent.com/u/26042707/gomonth%28medium%29.jpg)](https://github.com/daishisystems/month)
+[![Month Icon](https://dl.dropboxusercontent.com/u/26042707/gomonth%28medium%29.jpg)](http://insidethecpu.com/2015/10/09/simple-date-handling-in-go/)
 ## Installation
 go get github.com/daishisystems/month
 ## Sample Code
