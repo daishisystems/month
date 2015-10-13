@@ -3,6 +3,8 @@
 // ability to return the last day of any given month.
 package month
 
+import "time"
+
 // Month represents a standard calendar month, applicable to integer format.
 type Month int
 
@@ -22,21 +24,6 @@ const (
 	December
 )
 
-var monthNames = [12]string{
-	"January",
-	"February",
-	"March",
-	"April",
-	"May",
-	"June",
-	"July",
-	"August",
-	"September",
-	"October",
-	"November",
-	"December",
-}
-
 var monthDays = map[int]int{
 	1:  31,
 	3:  31,
@@ -54,8 +41,7 @@ var monthDays = map[int]int{
 // String returns an English language based representation of m. E.g., January,
 // February, etc.
 func (m Month) String() string {
-
-	return monthNames[m-1]
+	return time.Month(m).String()
 }
 
 // LastDay returns the last day of m, based on year. The function takes into
